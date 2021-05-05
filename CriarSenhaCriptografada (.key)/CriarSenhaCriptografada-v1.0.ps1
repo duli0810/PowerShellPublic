@@ -9,7 +9,7 @@ echo ""
 echo ""
 <#
 
-Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
+💻💻💻 Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/ 💻💻💻
 
 O script abaixo cria uma senha Criptografada
 
