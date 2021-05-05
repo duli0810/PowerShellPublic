@@ -9,6 +9,8 @@ echo ""
 echo ""
 <#
 
+Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
+
 O script abaixo cria uma senha Criptografada
 
 IMPORTANTE: Em senha ultilizada em scripts para acesso a servidores, é nescessario criar a senha no servidor e no perfil que realizará o acesso, ou seja, "rodar" esse script no servidor de origem, pois a senha fica atrelada ao host, como meio de seguraça;  
