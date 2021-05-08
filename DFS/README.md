@@ -2,7 +2,7 @@
 
 ### O scripts para manipular o DFS ### 
 
-Com DFS habilitado no Windows Server, sera possuivel distribuir os diretorio e arquivos em servidores diferentes. Atraves dele é possivel criar um unico ponto de acesso aos arquivos e diretorios, o  "Namespace". E se caso um dos servdidores vier a ficar indisponivel, acesso sempre será possivel atraves do Namespace 
+Com DFS habilitado no Windows Server, sera possivel distribuir os diretorio e arquivos em servidores diferentes. Atraves dele é possivel criar um unico ponto de acesso aos arquivos e diretorios, o  "Namespace". E se caso um dos servdidores vier a ficar indisponivel, acesso sempre será possivel atraves do Namespace 
 
 * Sistema de Arquivos Distribuídos, do inglês Distributed File System (DFS) *
 
