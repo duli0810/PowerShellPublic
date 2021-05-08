@@ -7,6 +7,13 @@ echo                                                   "################ Criado 
 echo ""
 echo ""
 
+<#
 
-Set-DfsrMembership -GroupName * -FolderName * -ComputerName "SITES-DALLAS","SITES-WDC04" -RemoveDeletedFiles $True -Force
+💻💻💻 Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/ 💻💻💻
+
+O script que Desabilitar Conflict And Deleted
+
+#>
+
+Set-DfsrMembership -GroupName * -FolderName * -ComputerName "<NomedoServidor1>","<NomedoServidor2>" -RemoveDeletedFiles $True -Force
 
