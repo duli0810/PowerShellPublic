@@ -1,10 +1,8 @@
-# CriarSenhaCriptografada (.key)
+# Distributed File System (DFS)
 
-### O script cria uma senha Criptografada (.key) ### 
+### O scripts para manipular o DFS ### 
 
-O Script ira criptografada sua senha comum em um arquivo .KEY, muito ultil na elaboraçao de script onde é necessario acessar a e-mail, servidores ou excusão de comandos remotos, pois a necessidade de cadastra usuario e senha. Ao inves de deixar a senha exposta no script, realizamos a conversao para esse arquivo .KEY.
-
-IMPORTANTE: Em senha ultilizada em scripts para acesso a servidores, é nescessario criar o .KEY no servidor e no perfil que realizará o acesso, ou seja, "rodar" esse script no servidor de origem, pois a senha fica atrelada ao host, como meio de seguraça; 
+Com DFS habilitado no Windows Server, sera possuivel distribuir os diretorio e arquivos em servidores diferentes. Atraves dele é possivel criar um unico ponto de acesso aos arquivos e diretorios, o  "Namespace". E se caso um dos servdidores vier a ficar indisponivel, acesso sempre será possivel atraves do Namespace 
 
 Acesse o Blog e veja o passo a passo: 
 https://acesso8.blogspot.com/
