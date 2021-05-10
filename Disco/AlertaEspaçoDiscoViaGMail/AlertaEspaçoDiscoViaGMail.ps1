@@ -63,8 +63,8 @@ $message = New-Object System.Net.Mail.MailMessage
 $message.subject = $subject
 $message.from = $username
 $message.to.add($to)
-#$message.cc.add($cc)
-#$message.cc.add($bcc)
+#$message.cc.add($cc)                                ####### <- <- DESCOMENTE PARA PARA DESTINATARIO EM COPIA ######
+#$message.cc.add($bcc)                               ####### <- <- DESCOMENTE PARA PARA DESTINATARIO EM COPIA OCULTA ######
 #$message.attachments.add($attachment)               ####### <- <- DESCOMENTE PARA ANEXAR ARQUIVOS ######
 
 $message.body = $body
