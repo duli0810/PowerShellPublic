@@ -1,10 +1,12 @@
-# CriarSenhaCriptografada (.key)
+# Alerta de Espaço em Disco Via GMail
 
-### O script cria uma senha Criptografada (.key) ### 
+O script abaixo irá Alerta via gmail, se o Espaço em Disco é suficente ou insuficiente, de acordo com a valor aceitavel, assim definido.
 
-O Script ira criptografada sua senha comum em um arquivo .KEY, muito ultil na elaboraçao de script onde é necessario acessar a e-mail, servidores ou excusão de comandos remotos, pois a necessidade de cadastra usuario e senha. Ao inves de deixar a senha exposta no script, realizamos a conversao para esse arquivo .KEY.
+1 - Abra o script e informe os valores das variaveis o no bloco DECLARANDO VARIAVEL. 
 
-IMPORTANTE: Em senha ultilizada em scripts para acesso a servidores, é nescessario criar o .KEY no servidor e no perfil que realizará o acesso, ou seja, "rodar" esse script no servidor de origem, pois a senha fica atrelada ao host, como meio de seguraça; 
+2 - Crie no Windows Task Scheduler uma tarefa para executar o script. 
+
+*Pronto agora o script ira alerta via e-mail toda vez que o espaço em disco for insuficiente!
 
 Acesse o Blog e veja o passo a passo: 
 https://acesso8.blogspot.com/
