@@ -3,6 +3,7 @@
 
 O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguida envia o resultado do Nmap via Gmail. 
 
+#
 
 1 - Abra o script e informe os valores das variaveis o no bloco *DECLARANDO VARIAVEL.
 
