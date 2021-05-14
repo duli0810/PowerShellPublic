@@ -27,13 +27,13 @@ O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguid
     192.168.1.20
     192.168.1.30
     
-2 - Instale o Nmap no Servidor que ira realizar o Scan de portas
+5 - Instale o Nmap no Servidor que ira realizar o Scan de portas
 
     https://nmap.org/download.html
 
-3 - Crie no Windows Task Scheduler uma tarefa para executar o script.
+6 - Crie no Windows Task Scheduler uma tarefa para executar o script.
 
-4 - Habilite no GMail a opção "app menos seguros" através do link abaixo:
+7 - Habilite no GMail a opção "app menos seguros" através do link abaixo:
 
     https://myaccount.google.com/security
 
