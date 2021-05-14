@@ -1,5 +1,5 @@
 ﻿echo ""
-echo                                                         "################ Script Nmap ################"
+echo                                                "################ Script Nmap +Alerta Via GMail ################"
 echo ""
 echo                                                  "################ Autor: EDUARDO RODRIGUES ################"
 echo ""
