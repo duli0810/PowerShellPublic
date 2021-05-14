@@ -1,39 +1,29 @@
-# Script - PortScan automátizado com NMap
-
-### Passo a passo do script de Port Scan ####
+# Nmap + Resultado Via GMail
 
 
-O Script irá verificar as portas abertas dos servidores listados no arquivo "ip.txt". 
-
-IMPORTANTE: 
-            - No arquivo "ip.txt" colocará os ips dos servidores a serem scaniado, uma abaixo do outro;  
-
-Segue: 
-
-1 - Instale o NMap na sua distribuição Linux, neste exemplo estou utilizando o CentOS, mas segue para demais:
-    
-    yum install nmap         =>  Linux baseadas em RHEL
-    
-    sudo apt install nmap   =>  Debian e derivados
+O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguida envia o resultado do Nmap via Gmail. 
 
 
-2 - Edite o script com os repositórios para Script "PortScanByNMap.sh", o arquivo "ip.txt" e do Log ( resultado do Scan ). 
-OBS.: Para este Script foi criado dois diretório um chamado "Script" e o outro de "PortScan" dentro /home/<perfil>/ . Dentro do diretório Script foi posto o script "PortScanByNMap.sh" mais o arquivo "ip.txt" , o diretório "PortScan" servira para receber os logs ( resultado do Scan ). 
+1 - Abra o script e informe os valores das variaveis o no bloco *DECLARANDO VARIAVEL.
 
-3 - Torne o Script "PortScanByNMap.sh" executável:
+$Login = "Informar_aqui_o_e-mail_remetente"
 
-    chmod a+x /home/<perfil>/Script/PortScanByNMap.sh
+$Password = "Senha_do_e-mail_remetente"
 
-4 - Crie uma tarefa no crontab
+$to = "e-mail_destinatario"
 
-    crontab -e
-    
-*No meu exemplo o script irá rodar todos os dias a 00:00  
-    
-    0 0 * * * /home/<perfil>/Script/PortScanByNMap.sh
+2 - Instale o Nmap no Servidor que ira realizar o Scan de portas
 
-E pronto! Feito o scan diário dos seus servidores!
+https://nmap.org/download.html
 
+3 - Crie no Windows Task Scheduler uma tarefa para executar o script.
 
-Acesse o Blog e veja o passo a passo: 
-https://acesso8.blogspot.com/2021/05/portscan-automatizado-com-nmap.html
+4 - Habilite no GMail a opção "app menos seguros" através do link abaixo:
+
+https://myaccount.google.com/security
+
+⭐⭐⭐ OBS.: É necessario acessar GMail que enviará o resultado uma unica vez no servidor que ira excecutar o script. Recebera um "Alerta de segurança" informando "Novo dispositivo conectado", confirme essa verificaça e pronto. ⭐⭐⭐
+
+*Pronto agora o script ira enviar o resultado via e-mail!
+
+Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
