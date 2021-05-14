@@ -1,11 +1,11 @@
 # Nmap + Resultado Via GMail
 
 
-O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguida envia o resultado do Nmap via Gmail. 
+O script abaixo realiza um portscan dos ips listados no arquivo "IPs.txt" em seguida envia o resultado do Nmap via Gmail. 
 
 #
 
-1 - Abra o script e informe os valores das variaveis o no bloco *DECLARANDO VARIAVEL.
+1 - Abra o script e informe os valores das variaveis no bloco *DECLARANDO VARIAVEL.
 
     $Login = "Informar_aqui_o_e-mail_remetente"
 
@@ -28,7 +28,7 @@ O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguid
     192.168.1.20
     192.168.1.30
     
-5 - Instale o Nmap no Servidor que ira realizar o Scan de portas
+5 - Instale o Nmap no Servidor que irá realizar o Scan de portas
 
     https://nmap.org/download.html
 
