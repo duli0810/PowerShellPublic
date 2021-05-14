@@ -12,6 +12,21 @@ O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguid
 
     $to = "e-mail_destinatario"
 
+2 - Cria um diretório no C:\ chamado "PortScanServer"
+
+    C:\PortScanServer
+
+3 - Adicione o arquivo "IPs.txt" no diretorio "PortScanServer"  
+
+    C:\PortScanServer\IPs.txt
+
+4 - Adicione no arquivo "IPs.txt" os ips que deseja scanear ( um embaixo do outro, sem espaço ) 
+    
+    Ex.:
+    192.168.1.10
+    192.168.1.20
+    192.168.1.30
+    
 2 - Instale o Nmap no Servidor que ira realizar o Scan de portas
 
     https://nmap.org/download.html
