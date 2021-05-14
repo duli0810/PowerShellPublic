@@ -1,5 +1,5 @@
 ﻿echo ""
-echo                                                "################ Script Nmap +Alerta Via GMail ################"
+echo                                                "################ Script Nmap + Resultado Via GMail ################"
 echo ""
 echo                                                  "################ Autor: EDUARDO RODRIGUES ################"
 echo ""
@@ -7,7 +7,12 @@ echo                                                   "################ Criado 
 echo ""
 echo ""
 echo ""
+<#
+💻💻💻 Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/ 💻💻💻
 
+O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguida envia o resultado do Nmap via Gmail.
+
+#>
 
 ############################################################ DECLARANDO VARIAVEL #######################################################################
 $DMY = Get-Date -uformat "%d-%m-%Y" 
