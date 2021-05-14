@@ -22,9 +22,11 @@ O script abaixo realiza um portscan do ips listado no arquivo "ip.txt" em seguid
 
     https://myaccount.google.com/security
 
-     ⭐⭐⭐ OBS.: É necessario acessar GMail que enviará o resultado uma unica vez no servidor que ira excecutar o script. Recebera um "Alerta de segurança" informando "Novo dispositivo conectado", confirme essa verificaça e pronto. ⭐⭐⭐
- #
- 
-    *Pronto agora o script ira enviar o resultado via e-mail!
 #
-    Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
+⭐⭐⭐ OBS.: É necessario acessar GMail que enviará o resultado uma unica vez no servidor que ira excecutar o script. Recebera um "Alerta de segurança" informando "Novo dispositivo conectado", confirme essa verificaça e pronto. ⭐⭐⭐
+#
+ 
+*Pronto agora o script ira enviar o resultado via e-mail!
+#
+🖥️ Acesse o Blog e veja o passo a passo: 
+https://acesso8.blogspot.com/
