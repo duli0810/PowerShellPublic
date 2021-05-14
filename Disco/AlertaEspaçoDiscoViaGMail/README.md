@@ -14,5 +14,5 @@ O script abaixo irá Alerta via GMail, se o Espaço em Disco é suficente ou ins
 
 *Pronto agora o script ira alerta via e-mail toda vez que o espaço em disco for insuficiente!
 
-Acesse o Blog e veja o passo a passo: 
+🖥️ Acesse o Blog e veja o passo a passo: 
 https://acesso8.blogspot.com/
