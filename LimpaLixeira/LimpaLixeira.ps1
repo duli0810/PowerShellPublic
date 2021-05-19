@@ -10,8 +10,9 @@ echo ""
 
 <#
 
-O Comando abaixo Limpa a Lixeira; 
+💻💻💻 Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/ 💻💻💻
 
+O Comando abaixo Limpa a Lixeira; 
 
 #>
 ############################################################ LIMPANDO LIXEIRA ###########################################################################
