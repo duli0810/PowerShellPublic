@@ -45,4 +45,4 @@ O script abaixo realiza um portscan dos ips listados no arquivo "IPs.txt" em seg
 *Pronto agora o script ira enviar o resultado via e-mail!
 #
 🖥️ Acesse o Blog e veja o passo a passo: 
-https://acesso8.blogspot.com/
+https://acesso8.blogspot.com/2021/05/powershell-portscan-nmap-resultado-via.html
