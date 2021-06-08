@@ -11,4 +11,4 @@ Crie no Windows Task Scheduler uma tarefa para automatizar a execução do scrip
     
 #
 🖥️ Acesse o Blog e veja o passo a passo: 
-https://acesso8.blogspot.com/2021/05/powershell-portscan-nmap-resultado-via.html    
+https://acesso8.blogspot.com/2021/05/windows-task-scheduler-executando.html
