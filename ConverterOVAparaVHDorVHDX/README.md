@@ -9,7 +9,7 @@ Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk
 
 1 - Extraia o .ova ( Use software como winrar ou .zip), será gerado dois arquivos o .vmdk e o .ovf; 
 
-2 - Instale o Microsoft Virtual Machine Converter, segue link para download; 
+2 - Instale o Microsoft Virtual Machine Converter, segue link para download 👇; 
  
     https://mega.nz/file/7TBSiBDY#9Mu170URQtCnpzRZvqHw_cJaGofgkgqiPhXOpS41q34
 
@@ -31,14 +31,25 @@ Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk
 - Caso apresente um erro semelhante ao exemplo abaixo: 
 
 ```ruby
-    ConvertTo-MvmcVirtualHardDisk : The entry 00000000-0000-0000-0000-000000000000 is not a supported disk database entry for the descriptor. 
+ConvertTo-MvmcVirtualHardDisk : The entry 00000000-0000-0000-0000-000000000000 is not a supported disk database entry for the descriptor. 
 ```
-- Segue link para correção
+- Segue link para correção 👇
 
 ```
-   endereço_do_github
+   https://github.com/duli0810/PowerShellPublic/tree/main/ConverterOVAparaVHDorVHDX/ErroConverterOVAparaVHDorVHDX
 ```
 #
-🖥️ Acesse o Blog e veja o passo a passo: https://acesso8.blogspot.com/
 
-#
+<ul align="center"> 
+  <p><b>Siga-me nas Redes Socias:</b>.</p>
+
+  <p>👇👇👇</p>
+</ul>  
+  
+ ##
+<div align="center"> 
+  <a href = "https://acesso8.blogspot.com/"><img src="https://i.imgur.com/T01dNPP.png" target="_blank"></a>
+  <a href="http://www.youtube.com/channel/UCh6CzOE6aWxy_5RYG4To88g?sub_confirmation=1" target="_blank"><img src="https://i.imgur.com/Hp8VxZO.png" target="_blank"></a>
+  <a href="https://twitter.com/8Acesso" target="_blank"><img src="https://i.imgur.com/NQZ8fjf.png" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/eduardo-rodrigues-da-silva-78895a25/" target="_blank"><img src="https://i.imgur.com/FRMLFvm.png" target="_blank"></a>
+</div>
