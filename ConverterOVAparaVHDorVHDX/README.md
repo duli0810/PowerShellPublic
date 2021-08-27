@@ -18,7 +18,7 @@ Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk
     $DirVMDK  = "<Informe a path da VMDK>"                        # Informe a path da VMDK juntamente com o nome do disco ( Ex.: C:\disco.vmdk )
     $DirVHD   = "<Informe a path onde será salvo a VHD ou VHDX>"  # Informe a path onde será salvo a VHD ou VHDX ( Ex.: C:\ )
 
-Obs.: Coloque a Path entre as " "
+⚠️Atenção: Coloque a Path entre as " "
 
 4 - Execute o script "ConverterOVAparaVHDorVHDX.ps1";
 
