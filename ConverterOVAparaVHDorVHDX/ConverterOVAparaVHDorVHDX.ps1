@@ -23,7 +23,7 @@ write-host -ForegroundColor yellow  "ATENÇÃO: Caso apresente um erro semelhant
 echo ""
 write-host -ForegroundColor red  'ConvertTo-MvmcVirtualHardDisk : The entry 00000000-0000-0000-0000-000000000000 is not a supported disk database entry for the descriptor.'
 echo ""
-write-host -ForegroundColor yellow  'Segue link com correção -> endereço_do_github!!!'
+write-host -ForegroundColor yellow  'Segue link com correção -> https://github.com/duli0810/PowerShellPublic/tree/main/ConverterOVAparaVHDorVHDX/ErroConverterOVAparaVHDorVHDX'
 
 ############################################################ Declarando Varialvel ##############################################################################
 
