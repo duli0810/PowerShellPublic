@@ -6,7 +6,7 @@
 
 ⭐ Acesse o Canal do YouTube : ["Solucionado Erro de instalação do .NET Framework 3.5"](https://youtu.be/sWbyvPZSVs8)
 
-Há situações onde ao tentar instalar o .NET Framework 3.5  pelo modo tradicional você poderá se deparar com o erro #0x800f0906, #0x800f0907, #0x800f081f ou #0x800F0922 
+Há situações onde ao tentar instalar o .NET Framework 3.5  pelo modo tradicional você poderá se deparar com o erro 0x800f0906, 0x800f0907, 0x800f081f ou 0x800F0922 
 
 Erro esses pode ser ocasionados por diversos motivos. O procedimento no vídeo acima ira auxiliar a contornar este problema. 
 
