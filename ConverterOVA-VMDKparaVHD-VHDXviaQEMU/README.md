@@ -2,7 +2,7 @@
 
 O Procedimento irá converter disco .ova e .vmdk para disco .vhd / .vhdx. 
 
-Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk
+Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk. Em seguida é só seguir o procedimento abaixo.
 #
 
 ## INSTRUÇÃO
