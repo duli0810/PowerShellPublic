@@ -15,7 +15,7 @@ Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk. Em segu
 
 3 - Abra o PowerShell no modo Administrador;
        
-4 - Acesse o diretorio do QEMU;
+4 - Acesse através do PowerShell o diretorio do QEMU;
    
     cd C:\Program Files\qemu\
 
