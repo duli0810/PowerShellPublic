@@ -1,4 +1,4 @@
-# Converter .OVA ou .VMDK para .VHD / .VDHX via QEMU 
+# Converter .OVA / .VMDK para .VHD / .VDHX via QEMU 
 
 O Procedimento irá converter disco .ova e .vmdk para disco .vhd / .vhdx. 
 
