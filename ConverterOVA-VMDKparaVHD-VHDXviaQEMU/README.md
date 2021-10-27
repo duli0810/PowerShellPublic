@@ -1,6 +1,6 @@
-# Script - Converter .ova para .vhd / .vhdx  
+# Converter .OVA ou .VMDK para .VHD / .VDHX via QEMU 
 
-O Script irá converter disco em .vmdk para disco .vhd / .vhdx. 
+O Procedimento irá converter disco .ova e .vmdk para disco .vhd / .vhdx. 
 
 Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk
 #
@@ -9,35 +9,24 @@ Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk
 
 1 - Extraia o .ova ( Use software como winrar ou .zip), será gerado dois arquivos o .vmdk e o .ovf; 
 
-2 - Instale o Microsoft Virtual Machine Converter, segue link para download 👇; 
+2 - Baixe e instale a versão mais recente do QEMU, segue link para download 👇; 
  
-    https://mega.nz/file/7TBSiBDY#9Mu170URQtCnpzRZvqHw_cJaGofgkgqiPhXOpS41q34
+    https://qemu.weilnetz.de/w64/
 
-3 - Edite as Path do script "ConverterOVAparaVHDorVHDX.ps1" , com a origem (VMDK) e destino (VDH / VHDX);
+3 - Abra o PowerShell no modo Administrador;
+       
+4 - Acesse o diretorio do QEMU;
    
-    $DirVMDK  = "<Informe a path da VMDK>"                        # Informe a path da VMDK juntamente com o nome do disco ( Ex.: C:\disco.vmdk )
-    $DirVHD   = "<Informe a path onde será salvo a VHD ou VHDX>"  # Informe a path onde será salvo a VHD ou VHDX ( Ex.: C:\ )
+    cd C:\Program Files\qemu\
 
-⚠️Atenção: Coloque a Path entre as " "
+5 - Edite as Path do comando abaixo, com a origem (VMDK) e destino (VDH / VHDX) e formado do disco ( dynamic / fixed ); 
+        
+    .\qemu-img.exe convert "<Informe a path da VMDK>.vmdk" -O vhdx -o subformat=<Informe o formato do disco> "<Informe a path onde será salvo a VHD ou VHDX>.vhdx"
+       
+   Ex.: 
 
-4 - Execute o script "ConverterOVAparaVHDorVHDX.ps1";
+    .\qemu-img.exe convert "C:\disco.vmdk" -O vhdx -o subformat=dynamic "C:\disco.vhdx" 
 
-5 - Será gerado a VHD ou VHDX no diretorio selecionado;   
-
-#
-
-#### OBSERVAÇÃO
-
-- Caso apresente um erro semelhante ao exemplo abaixo: 
-
-```ruby
-ConvertTo-MvmcVirtualHardDisk : The entry 00000000-0000-0000-0000-000000000000 is not a supported disk database entry for the descriptor. 
-```
-- Segue link para correção 👇
-
-```
-   https://github.com/duli0810/PowerShellPublic/tree/main/ConverterOVAparaVHDorVHDX/ErroConverterOVAparaVHDorVHDX
-```
 #
 
 <ul align="center"> 
