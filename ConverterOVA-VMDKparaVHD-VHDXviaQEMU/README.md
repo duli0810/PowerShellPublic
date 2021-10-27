@@ -26,6 +26,8 @@ Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk. Em segu
    Ex.: 
 
     .\qemu-img.exe convert "C:\disco.vmdk" -O vhdx -o subformat=dynamic "C:\disco.vhdx" 
+    
+6 - Em seguida execute o comando e aguarde a conversão do disco virtual.    
 
 #
 
