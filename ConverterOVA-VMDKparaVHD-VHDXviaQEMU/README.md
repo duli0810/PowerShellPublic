@@ -13,6 +13,10 @@ Para converter o .ova basta extrai-lo, pois dentro dele estará o .vmdk. Em segu
  
     https://qemu.weilnetz.de/w64/
 
+Ou baixe o QEMU que disponibilizo 👇👇👇:
+   
+     https://mega.nz/file/zL4FHYgK#dxZn9WGTQ-2duPc28tUmmPkZC3JsnAL1o55pIxGyE9o
+
 3 - Abra o PowerShell no modo Administrador;
        
 4 - Acesse através do PowerShell o diretorio do QEMU;
