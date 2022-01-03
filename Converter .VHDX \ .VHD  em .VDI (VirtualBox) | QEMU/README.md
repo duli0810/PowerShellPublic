@@ -2,7 +2,7 @@
 
 ⭐ Acesse meu Canal do **YouTube** para mais detalhes : ["Converter .VHDX \ .VHD  em .VDI (VirtualBox) | QEMU"](https://youtu.be/kL0dbD5T1tI)
 
-⭐ Acesse o Blog : ["Acesso 8 "](https://acesso8.blogspot.com)
+⭐ Acesse o Blog : ["Acesso 8 "](https://acesso8.blogspot.com/2022/01/converter-vhdx-vhd-em-vdi-virtualbox.html)
 #
 Neste procedimento iremos demonstrar como converter .VHDX ou .VHD  em .VDI  (**VirtualBox**) através do software **QEMU** ( QEMU disk image utility).  Para isso iremos utilizar linha de comando através do **PowerShell**
 
